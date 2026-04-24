@@ -1,0 +1,151 @@
+@media (min-width: 768px) {
+  /* Carousel */
+  .carousel {
+    height: 60vh;
+  }
+
+  /* Store */
+  .store-container {
+    padding: 2rem 3rem;
+  }
+
+  .store-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Contact form */
+  .contact-form {
+    padding: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input {
+    max-width: 100%;
+  }
+
+  textarea {
+    max-width: 100%;
+  }
+
+  /* About */
+  .about-details {
+    padding: 0 3rem;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  footer > * {
+    flex: 1 1 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Nav */
+  nav {
+    padding: 2rem 4rem;
+  }
+
+  #hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel {
+    height: 65vh;
+    max-width: 1100px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  /* Store */
+  .store-container {
+    padding: 2rem 4rem;
+  }
+
+  .store-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* About */
+  .about-details {
+    padding: 0 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  /* Contact */
+  .contact-form {
+    max-width: 700px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 3rem 4rem;
+  }
+
+  footer > * {
+    flex: 1 1 20%;
+  }
+}
+
+@media (min-width: 1280px) {
+  /* Nav */
+  nav {
+    padding: 2rem 6rem;
+  }
+
+  .carousel {
+    max-width: 1400px;
+    height: 70vh;
+  }
+
+  /* Store */
+  .store-container {
+    padding: 2rem 6rem;
+  }
+
+  .store-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* About */
+  #about {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .container-fluid {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .about-details {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  /* Contact */
+  .contact-form {
+    max-width: 800px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 4rem 6rem;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  footer > * {
+    flex: 1;
+  }
+}
